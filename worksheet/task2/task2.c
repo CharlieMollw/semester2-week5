@@ -34,8 +34,6 @@ int main(void){
 			case 'a': case 'b': case 'c': case 'd': case 'e': case 'f':
 				number = number + (long)((int)input[i]-87);
 				break;
-				
-
 			default:
 				printf("Error: Invalid Hexadecimal\n");
 				return 0;
