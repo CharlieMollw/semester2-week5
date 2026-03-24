@@ -31,6 +31,11 @@ int main(void){
 			case 'A': case 'B': case 'C': case 'D': case 'E': case 'F':
 				number = number + (long)((int)input[i]-55);
 				break;
+			case 'a': case 'b': case 'c': case 'd': case 'e': case 'f':
+				number = number + (long)((int)input[i]-87);
+				break;
+				
+
 			default:
 				printf("Error: Invalid Hexadecimal\n");
 				return 0;
